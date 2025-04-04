@@ -1,0 +1,630 @@
+
+Debug: Available methods and attributes of the sch object:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_attribs', '_all', '_dedicatedWrappers', '_filepath', '_searchable_collections', 'between_elements', 'dedicated_collection_type_for', 'dedicated_collections_by_type', 'dedicated_wrapper_type_for', 'filepath', 'generator', 'generator_version', 'global_label', 'junction', 'label', 'lib_symbols', 'new_from_list', 'overwrite', 'paper', 'read', 'reload', 'sheet_instances', 'symbol', 'text', 'tree', 'uuid', 'version', 'will_load', 'will_write', 'wire', 'within_circle', 'within_reach_of', 'within_rectangle', 'wrap', 'write']
+
+Debug: Available methods and attributes of a wire object:
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_coordinates_for', '_distance_between', '_elements', '_new_instance', '_parent', 'all_at', 'append', 'between_elements', 'new', 'parent', 'within_circle', 'within_reach_of', 'within_rectangle']
+
+Debug: Structure of an existing wire:
+{'_pv': <wire [<pts [<xy [68.58, 34.29]>, <xy [68.58, 29.21]>]>, <stroke [width = 0, type = default]>, uuid = 07c39f10-faac-4dee-a8a2-f0bf16830ead]>, '_slope': None, '_unit_vector': None, '_wire_mag': None, '_specs_calculated': False}
+here
+
+
+Teensy component found: U5 - Teensy4.1
+
+Debug: Listing all OP-AMP pins with location data
+
+
+DEBUG: ref: U3 for op-amp mcp6004
+  Pin Name: V-, Location: [147.32, 121.92, 90]
+  Pin Name: V+, Location: [147.32, 106.68, 270]
+DEBUG: ref: U1 for op-amp mcp6004
+  Pin Name: +, Location: [60.96, 52.07, 270]
+  Pin Name: ~, Location: [63.5, 36.83, 90]
+  Pin Name: -, Location: [66.04, 52.07, 270]
+DEBUG: Found OpAmp negative input U1 (mcp6004) at [66.04, 52.07, 270]
+DEBUG: Found OpAmp Output U1 (mcp6004) at [63.5, 36.83, 90]
+DEBUG: ref: U1 for op-amp mcp6004
+  Pin Name: ~, Location: [121.92, 36.83, 90]
+  Pin Name: +, Location: [119.38, 52.07, 270]
+  Pin Name: -, Location: [124.46, 52.07, 270]
+DEBUG: Found OpAmp negative input U1 (mcp6004) at [124.46, 52.07, 270]
+DEBUG: Found OpAmp Output U1 (mcp6004) at [121.92, 36.83, 90]
+DEBUG: ref: U6 for op-amp lm358
+  Pin Name: V-, Location: [109.22, 195.58, 90]
+  Pin Name: V+, Location: [109.22, 180.34, 270]
+DEBUG: ref: U2 for op-amp mcp6004
+  Pin Name: ~, Location: [120.65, 72.39, 90]
+  Pin Name: +, Location: [118.11, 87.63, 270]
+  Pin Name: -, Location: [123.19, 87.63, 270]
+DEBUG: Found OpAmp negative input U2 (mcp6004) at [123.19, 87.63, 270]
+DEBUG: Found OpAmp Output U2 (mcp6004) at [120.65, 72.39, 90]
+DEBUG: ref: U3 for op-amp mcp6004
+  Pin Name: +, Location: [91.44, 124.46, 270]
+  Pin Name: -, Location: [96.52, 124.46, 270]
+  Pin Name: ~, Location: [93.98, 109.22, 90]
+DEBUG: Found OpAmp negative input U3 (mcp6004) at [96.52, 124.46, 270]
+DEBUG: Found OpAmp Output U3 (mcp6004) at [93.98, 109.22, 90]
+DEBUG: ref: U6 for op-amp lm358
+  Pin Name: ~, Location: [86.36, 180.34, 90]
+  Pin Name: -, Location: [88.9, 195.58, 270]
+  Pin Name: +, Location: [83.82, 195.58, 270]
+DEBUG: Found OpAmp negative input U6 (lm358) at [88.9, 195.58, 270]
+DEBUG: Found OpAmp Output U6 (lm358) at [86.36, 180.34, 90]
+DEBUG: ref: U3 for op-amp mcp6004
+  Pin Name: ~, Location: [34.29, 109.22, 90]
+  Pin Name: -, Location: [36.83, 124.46, 270]
+  Pin Name: +, Location: [31.75, 124.46, 270]
+DEBUG: Found OpAmp negative input U3 (mcp6004) at [36.83, 124.46, 270]
+DEBUG: Found OpAmp Output U3 (mcp6004) at [34.29, 109.22, 90]
+DEBUG: ref: U1 for op-amp mcp6004
+  Pin Name: V-, Location: [144.78, 53.34, 90]
+  Pin Name: V+, Location: [144.78, 38.1, 270]
+DEBUG: ref: U4 for op-amp mcp6004
+  Pin Name: -, Location: [36.83, 158.75, 270]
+  Pin Name: ~, Location: [34.29, 143.51, 90]
+  Pin Name: +, Location: [31.75, 158.75, 270]
+DEBUG: Found OpAmp negative input U4 (mcp6004) at [36.83, 158.75, 270]
+DEBUG: Found OpAmp Output U4 (mcp6004) at [34.29, 143.51, 90]
+DEBUG: ref: U2 for op-amp mcp6004
+  Pin Name: +, Location: [31.75, 87.63, 270]
+  Pin Name: -, Location: [36.83, 87.63, 270]
+  Pin Name: ~, Location: [34.29, 72.39, 90]
+DEBUG: Found OpAmp negative input U2 (mcp6004) at [36.83, 87.63, 270]
+DEBUG: Found OpAmp Output U2 (mcp6004) at [34.29, 72.39, 90]
+DEBUG: ref: U2 for op-amp mcp6004
+  Pin Name: -, Location: [66.04, 87.63, 270]
+  Pin Name: +, Location: [60.96, 87.63, 270]
+  Pin Name: ~, Location: [63.5, 72.39, 90]
+DEBUG: Found OpAmp negative input U2 (mcp6004) at [66.04, 87.63, 270]
+DEBUG: Found OpAmp Output U2 (mcp6004) at [63.5, 72.39, 90]
+DEBUG: ref: U3 for op-amp mcp6004
+  Pin Name: +, Location: [60.96, 124.46, 270]
+  Pin Name: -, Location: [66.04, 124.46, 270]
+  Pin Name: ~, Location: [63.5, 109.22, 90]
+DEBUG: Found OpAmp negative input U3 (mcp6004) at [66.04, 124.46, 270]
+DEBUG: Found OpAmp Output U3 (mcp6004) at [63.5, 109.22, 90]
+DEBUG: ref: U3 for op-amp mcp6004
+  Pin Name: ~, Location: [121.92, 109.22, 90]
+  Pin Name: -, Location: [124.46, 124.46, 270]
+  Pin Name: +, Location: [119.38, 124.46, 270]
+DEBUG: Found OpAmp negative input U3 (mcp6004) at [124.46, 124.46, 270]
+DEBUG: Found OpAmp Output U3 (mcp6004) at [121.92, 109.22, 90]
+DEBUG: ref: U2 for op-amp mcp6004
+  Pin Name: V+, Location: [146.05, 73.66, 270]
+  Pin Name: V-, Location: [146.05, 88.9, 90]
+DEBUG: ref: U4 for op-amp mcp6004
+  Pin Name: -, Location: [95.25, 158.75, 270]
+  Pin Name: +, Location: [90.17, 158.75, 270]
+  Pin Name: ~, Location: [92.71, 143.51, 90]
+DEBUG: Found OpAmp negative input U4 (mcp6004) at [95.25, 158.75, 270]
+DEBUG: Found OpAmp Output U4 (mcp6004) at [92.71, 143.51, 90]
+DEBUG: ref: U4 for op-amp mcp6004
+  Pin Name: +, Location: [118.11, 158.75, 270]
+  Pin Name: -, Location: [123.19, 158.75, 270]
+  Pin Name: ~, Location: [120.65, 143.51, 90]
+DEBUG: Found OpAmp negative input U4 (mcp6004) at [123.19, 158.75, 270]
+DEBUG: Found OpAmp Output U4 (mcp6004) at [120.65, 143.51, 90]
+DEBUG: ref: U4 for op-amp mcp6004
+  Pin Name: V+, Location: [146.05, 139.7, 270]
+  Pin Name: V-, Location: [146.05, 154.94, 90]
+DEBUG: ref: U1 for op-amp mcp6004
+  Pin Name: ~, Location: [92.71, 36.83, 90]
+  Pin Name: +, Location: [90.17, 52.07, 270]
+  Pin Name: -, Location: [95.25, 52.07, 270]
+DEBUG: Found OpAmp negative input U1 (mcp6004) at [95.25, 52.07, 270]
+DEBUG: Found OpAmp Output U1 (mcp6004) at [92.71, 36.83, 90]
+DEBUG: ref: U2 for op-amp mcp6004
+  Pin Name: ~, Location: [92.71, 72.39, 90]
+  Pin Name: +, Location: [90.17, 87.63, 270]
+  Pin Name: -, Location: [95.25, 87.63, 270]
+DEBUG: Found OpAmp negative input U2 (mcp6004) at [95.25, 87.63, 270]
+DEBUG: Found OpAmp Output U2 (mcp6004) at [92.71, 72.39, 90]
+DEBUG: ref: U4 for op-amp mcp6004
+  Pin Name: ~, Location: [63.5, 143.51, 90]
+  Pin Name: +, Location: [60.96, 158.75, 270]
+  Pin Name: -, Location: [66.04, 158.75, 270]
+DEBUG: Found OpAmp negative input U4 (mcp6004) at [66.04, 158.75, 270]
+DEBUG: Found OpAmp Output U4 (mcp6004) at [63.5, 143.51, 90]
+DEBUG: ref: U6 for op-amp lm358
+  Pin Name: ~, Location: [60.96, 180.34, 90]
+  Pin Name: -, Location: [63.5, 195.58, 270]
+  Pin Name: +, Location: [58.42, 195.58, 270]
+DEBUG: Found OpAmp negative input U6 (lm358) at [63.5, 195.58, 270]
+DEBUG: Found OpAmp Output U6 (lm358) at [60.96, 180.34, 90]
+DEBUG: ref: U1 for op-amp mcp6004
+  Pin Name: ~, Location: [34.29, 36.83, 90]
+  Pin Name: -, Location: [36.83, 52.07, 270]
+  Pin Name: +, Location: [31.75, 52.07, 270]
+DEBUG: Found OpAmp negative input U1 (mcp6004) at [36.83, 52.07, 270]
+DEBUG: Found OpAmp Output U1 (mcp6004) at [34.29, 36.83, 90]
+
+
+DEBUG: Final opamp_neg_pins mapping:
+  U1: [[66.04, 52.07, 270], [124.46, 52.07, 270], [95.25, 52.07, 270], [36.83, 52.07, 270]]
+  U2: [[123.19, 87.63, 270], [36.83, 87.63, 270], [66.04, 87.63, 270], [95.25, 87.63, 270]]
+  U3: [[96.52, 124.46, 270], [36.83, 124.46, 270], [66.04, 124.46, 270], [124.46, 124.46, 270]]
+  U6: [[88.9, 195.58, 270], [63.5, 195.58, 270]]
+  U4: [[36.83, 158.75, 270], [95.25, 158.75, 270], [123.19, 158.75, 270], [66.04, 158.75, 270]]
+
+
+DEBUG: Final opamp_outputs mapping:
+  U1: [[63.5, 36.83, 90], [121.92, 36.83, 90], [92.71, 36.83, 90], [34.29, 36.83, 90]]
+  U2: [[120.65, 72.39, 90], [34.29, 72.39, 90], [63.5, 72.39, 90], [92.71, 72.39, 90]]
+  U3: [[93.98, 109.22, 90], [34.29, 109.22, 90], [63.5, 109.22, 90], [121.92, 109.22, 90]]
+  U6: [[86.36, 180.34, 90], [60.96, 180.34, 90]]
+  U4: [[34.29, 143.51, 90], [92.71, 143.51, 90], [120.65, 143.51, 90], [63.5, 143.51, 90]]
+End of Property and Pin List
+
+Debug: Listing all Teensy pins with location data:
+
+Checking Teensy Pin: 13, Name: 11_MOSI_CTX1, Location: [259.08, 66.04, 90]
+Checking Teensy Pin: 11, Name: 9_OUT1C, Location: [264.16, 66.04, 90]
+Checking Teensy Pin: 23, Name: 31_CTX3, Location: [233.68, 66.04, 90]
+Checking Teensy Pin: 21, Name: 29_TX7, Location: [238.76, 66.04, 90]
+Checking Teensy Pin: 27, Name: 35_TX8, Location: [236.22, 121.92, 270]
+Checking Teensy Pin: 30, Name: 38_CS1_IN1, Location: [243.84, 121.92, 270]
+Checking Teensy Pin: 12, Name: 10_CS_MQSR, Location: [261.62, 66.04, 90]
+Checking Teensy Pin: 15, Name: 3V3, Location: [254.0, 66.04, 90]
+Checking Teensy Pin: 16, Name: 24_A10_TX6_SCL2, Location: [251.46, 66.04, 90]
+Checking Teensy Pin: 17, Name: 25_A11_RX6_SDA2, Location: [248.92, 66.04, 90]
+Checking Teensy Pin: 18, Name: 26_A12_MOSI1, Location: [246.38, 66.04, 90]
+Checking Teensy Pin: 22, Name: 30_CRX3, Location: [236.22, 66.04, 90]
+Checking Teensy Pin: 24, Name: 32_OUT1B, Location: [231.14, 66.04, 90]
+Checking Teensy Pin: 25, Name: 33_MCLK2, Location: [231.14, 121.92, 270]
+Checking Teensy Pin: 26, Name: 34_RX8, Location: [233.68, 121.92, 270]
+Checking Teensy Pin: 28, Name: 36_CS, Location: [238.76, 121.92, 270]
+Checking Teensy Pin: 10, Name: 8_TX2_IN1, Location: [266.7, 66.04, 90]
+Checking Teensy Pin: 29, Name: 37_CS, Location: [241.3, 121.92, 270]
+Checking Teensy Pin: 31, Name: 39_MISO1_OUT1A, Location: [246.38, 121.92, 270]
+Checking Teensy Pin: 32, Name: 40_A16, Location: [248.92, 121.92, 270]
+Checking Teensy Pin: 19, Name: 27_A13_SCK1, Location: [243.84, 66.04, 90]
+Checking Teensy Pin: 14, Name: 12_MISO_MQSL, Location: [256.54, 66.04, 90]
+Checking Teensy Pin: 20, Name: 28_RX7, Location: [241.3, 66.04, 90]
+Checking Teensy Pin: 36, Name: 14_A0_TX3_SPDIF_OUT, Location: [259.08, 121.92, 270]
+Checking Teensy Pin: 33, Name: 41_A17, Location: [251.46, 121.92, 270]
+Checking Teensy Pin: 35, Name: 13_SCK_LED, Location: [256.54, 121.92, 270]
+Checking Teensy Pin: 47, Name: GND, Location: [287.02, 121.92, 270]
+Checking Teensy Pin: 56, Name: D-, Location: [217.17, 66.04, 90]
+Checking Teensy Pin: 58, Name: GND, Location: [212.09, 66.04, 90]
+Checking Teensy Pin: 8, Name: 6_OUT1D, Location: [271.78, 66.04, 90]
+Checking Teensy Pin: 53, Name: PROGRAM, Location: [201.93, 97.79, 180]
+Checking Teensy Pin: 40, Name: 18_A4_SDA, Location: [269.24, 121.92, 270]
+Checking Teensy Pin: 48, Name: VIN, Location: [289.56, 121.92, 270]
+Checking Teensy Pin: 59, Name: GND, Location: [209.55, 66.04, 90]
+Checking Teensy Pin: 64, Name: GND, Location: [222.25, 121.92, 270]
+Checking Teensy Pin: 6, Name: 4_BCLK2, Location: [276.86, 66.04, 90]
+Checking Teensy Pin: 7, Name: 5_IN2, Location: [274.32, 66.04, 90]
+Checking Teensy Pin: 65, Name: R-, Location: [224.79, 121.92, 270]
+Checking Teensy Pin: 1, Name: GND, Location: [289.56, 66.04, 90]
+Checking Teensy Pin: 61, Name: LED, Location: [214.63, 121.92, 270]
+Checking Teensy Pin: 62, Name: T-, Location: [217.17, 121.92, 270]
+Checking Teensy Pin: 41, Name: 19_A5_SCL, Location: [271.78, 121.92, 270]
+Checking Teensy Pin: 49, Name: VUSB, Location: [293.37, 121.92, 270]
+Checking Teensy Pin: 55, Name: 5V, Location: [219.71, 66.04, 90]
+Checking Teensy Pin: 67, Name: D+, Location: [223.52, 66.04, 90]
+Checking Teensy Pin: 45, Name: 23_A9_CRX1_MCLK1, Location: [281.94, 121.92, 270]
+Checking Teensy Pin: 60, Name: R+, Location: [212.09, 121.92, 270]
+Checking Teensy Pin: 42, Name: 20_A6_TX5_LRCLK1, Location: [274.32, 121.92, 270]
+Checking Teensy Pin: 66, Name: D-, Location: [226.06, 66.04, 90]
+Checking Teensy Pin: 50, Name: VBAT, Location: [201.93, 86.36, 180]
+Checking Teensy Pin: 54, Name: ON_OFF, Location: [201.93, 101.6, 180]
+Checking Teensy Pin: 5, Name: 3_LRCLK2, Location: [279.4, 66.04, 90]
+Checking Teensy Pin: 37, Name: 15_A1_RX3_SPDIF_IN, Location: [261.62, 121.92, 270]
+Checking Teensy Pin: 43, Name: 21_A7_RX5_BCLK1, Location: [276.86, 121.92, 270]
+Checking Teensy Pin: 39, Name: 17_A3_TX4_SDA1, Location: [266.7, 121.92, 270]
+Checking Teensy Pin: 51, Name: 3V3, Location: [201.93, 90.17, 180]
+Checking Teensy Pin: 44, Name: 22_A8_CTX1, Location: [279.4, 121.92, 270]
+Checking Teensy Pin: 46, Name: 3V3, Location: [284.48, 121.92, 270]
+Checking Teensy Pin: 38, Name: 16_A2_RX4_SCL1, Location: [264.16, 121.92, 270]
+Checking Teensy Pin: 52, Name: GND, Location: [201.93, 93.98, 180]
+Checking Teensy Pin: 57, Name: D+, Location: [214.63, 66.04, 90]
+Checking Teensy Pin: 63, Name: T+, Location: [219.71, 121.92, 270]
+Checking Teensy Pin: 9, Name: 7_RX2_OUT1A, Location: [269.24, 66.04, 90]
+Checking Teensy Pin: 34, Name: GND, Location: [254.0, 121.92, 270]
+Checking Teensy Pin: 4, Name: 2_OUT2, Location: [281.94, 66.04, 90]
+Checking Teensy Pin: 2, Name: 0_RX1_CRX2_CS1, Location: [287.02, 66.04, 90]
+Checking Teensy Pin: 3, Name: 1_TX1_CTX2_MISO1, Location: [284.48, 66.04, 90]
+
+Matched Teensy Pins in kicad_sch environment with ADC_pins/PWM_pins dicitonary values and writen in teensy_pins{}:
+Pin Number: 13, Type: PWM, Pin Name: 11_MOSI_CTX1, Description: 11_MOSI_CTX1, Location: [259.08, 66.04, 90]
+Pin Number: 11, Type: PWM, Pin Name: 9_OUT1C, Description: 9_OUT1C, Location: [264.16, 66.04, 90]
+Pin Number: 21, Type: PWM, Pin Name: 29_TX7, Description: 29_TX7, Location: [238.76, 66.04, 90]
+Pin Number: 30, Type: ADC, Pin Name: 38_CS1_IN1, Description: 38_CS1_IN1, Location: [243.84, 121.92, 270]
+Pin Number: 12, Type: PWM, Pin Name: 10_CS_MQSR, Description: 10_CS_MQSR, Location: [261.62, 66.04, 90]
+Pin Number: 16, Type: ADC, Pin Name: 24_A10_TX6_SCL2, Description: 24_A10_TX6_SCL2, Location: [251.46, 66.04, 90]
+Pin Number: 17, Type: ADC, Pin Name: 25_A11_RX6_SDA2, Description: 25_A11_RX6_SDA2, Location: [248.92, 66.04, 90]
+Pin Number: 18, Type: ADC, Pin Name: 26_A12_MOSI1, Description: 26_A12_MOSI1, Location: [246.38, 66.04, 90]
+Pin Number: 25, Type: PWM, Pin Name: 33_MCLK2, Description: 33_MCLK2, Location: [231.14, 121.92, 270]
+Pin Number: 28, Type: PWM, Pin Name: 36_CS, Description: 36_CS, Location: [238.76, 121.92, 270]
+Pin Number: 10, Type: PWM, Pin Name: 8_TX2_IN1, Description: 8_TX2_IN1, Location: [266.7, 66.04, 90]
+Pin Number: 29, Type: PWM, Pin Name: 37_CS, Description: 37_CS, Location: [241.3, 121.92, 270]
+Pin Number: 31, Type: ADC, Pin Name: 39_MISO1_OUT1A, Description: 39_MISO1_OUT1A, Location: [246.38, 121.92, 270]
+Pin Number: 32, Type: ADC, Pin Name: 40_A16, Description: 40_A16, Location: [248.92, 121.92, 270]
+Pin Number: 19, Type: ADC, Pin Name: 27_A13_SCK1, Description: 27_A13_SCK1, Location: [243.84, 66.04, 90]
+Pin Number: 20, Type: PWM, Pin Name: 28_RX7, Description: 28_RX7, Location: [241.3, 66.04, 90]
+Pin Number: 36, Type: ADC, Pin Name: 14_A0_TX3_SPDIF_OUT, Description: 14_A0_TX3_SPDIF_OUT, Location: [259.08, 121.92, 270]
+Pin Number: 33, Type: ADC, Pin Name: 41_A17, Description: 41_A17, Location: [251.46, 121.92, 270]
+Pin Number: 35, Type: PWM, Pin Name: 13_SCK_LED, Description: 13_SCK_LED, Location: [256.54, 121.92, 270]
+Pin Number: 8, Type: PWM, Pin Name: 6_OUT1D, Description: 6_OUT1D, Location: [271.78, 66.04, 90]
+Pin Number: 40, Type: ADC, Pin Name: 18_A4_SDA, Description: 18_A4_SDA, Location: [269.24, 121.92, 270]
+Pin Number: 6, Type: PWM, Pin Name: 4_BCLK2, Description: 4_BCLK2, Location: [276.86, 66.04, 90]
+Pin Number: 7, Type: PWM, Pin Name: 5_IN2, Description: 5_IN2, Location: [274.32, 66.04, 90]
+Pin Number: 41, Type: ADC, Pin Name: 19_A5_SCL, Description: 19_A5_SCL, Location: [271.78, 121.92, 270]
+Pin Number: 45, Type: ADC, Pin Name: 23_A9_CRX1_MCLK1, Description: 23_A9_CRX1_MCLK1, Location: [281.94, 121.92, 270]
+Pin Number: 42, Type: ADC, Pin Name: 20_A6_TX5_LRCLK1, Description: 20_A6_TX5_LRCLK1, Location: [274.32, 121.92, 270]
+Pin Number: 5, Type: PWM, Pin Name: 3_LRCLK2, Description: 3_LRCLK2, Location: [279.4, 66.04, 90]
+Pin Number: 37, Type: ADC, Pin Name: 15_A1_RX3_SPDIF_IN, Description: 15_A1_RX3_SPDIF_IN, Location: [261.62, 121.92, 270]
+Pin Number: 43, Type: ADC, Pin Name: 21_A7_RX5_BCLK1, Description: 21_A7_RX5_BCLK1, Location: [276.86, 121.92, 270]
+Pin Number: 39, Type: ADC, Pin Name: 17_A3_TX4_SDA1, Description: 17_A3_TX4_SDA1, Location: [266.7, 121.92, 270]
+Pin Number: 44, Type: ADC, Pin Name: 22_A8_CTX1, Description: 22_A8_CTX1, Location: [279.4, 121.92, 270]
+Pin Number: 38, Type: ADC, Pin Name: 16_A2_RX4_SCL1, Description: 16_A2_RX4_SCL1, Location: [264.16, 121.92, 270]
+Pin Number: 9, Type: PWM, Pin Name: 7_RX2_OUT1A, Description: 7_RX2_OUT1A, Location: [269.24, 66.04, 90]
+Pin Number: 4, Type: PWM, Pin Name: 2_OUT2, Description: 2_OUT2, Location: [281.94, 66.04, 90]
+Pin Number: 2, Type: PWM, Pin Name: 0_RX1_CRX2_CS1, Description: 0_RX1_CRX2_CS1, Location: [287.02, 66.04, 90]
+Pin Number: 3, Type: PWM, Pin Name: 1_TX1_CTX2_MISO1, Description: 1_TX1_CTX2_MISO1, Location: [284.48, 66.04, 90]
+Keys in teensy_pins:
+'13'
+'11'
+'23'
+'21'
+'27'
+'30'
+'12'
+'15'
+'16'
+'17'
+'18'
+'22'
+'24'
+'25'
+'26'
+'28'
+'10'
+'29'
+'31'
+'32'
+'19'
+'14'
+'20'
+'36'
+'33'
+'35'
+'47'
+'56'
+'58'
+'8'
+'53'
+'40'
+'48'
+'59'
+'64'
+'6'
+'7'
+'65'
+'1'
+'61'
+'62'
+'41'
+'49'
+'55'
+'67'
+'45'
+'60'
+'42'
+'66'
+'50'
+'54'
+'5'
+'37'
+'43'
+'39'
+'51'
+'44'
+'46'
+'38'
+'52'
+'57'
+'63'
+'9'
+'34'
+'4'
+'2'
+'3'
+
+Keys in PWM_pins:
+'6'
+'7'
+'8'
+'9'
+'2'
+'3'
+'4'
+'5'
+'10'
+'11'
+'12'
+'13'
+'20'
+'21'
+'28'
+'29'
+'35'
+'25'
+
+Keys in PWM_pins (Functions -> Numbers):
+'4_BCLK2' -> '6'
+'5_IN2' -> '7'
+'6_OUT1D' -> '8'
+'7_RX2_OUT1A' -> '9'
+'0_RX1_CRX2_CS1' -> '2'
+'1_TX1_CTX2_MISO1' -> '3'
+'2_OUT2' -> '4'
+'3_LRCLK2' -> '5'
+'8_TX2_IN1' -> '10'
+'9_OUT1C' -> '11'
+'10_CS_MQSR' -> '12'
+'11_MOSI_CTX1' -> '13'
+'28_RX7' -> '20'
+'29_TX7' -> '21'
+'36_CS' -> '28'
+'37_CS' -> '29'
+'13_SCK_LED' -> '35'
+'33_MCLK2' -> '25'
+Wiring PWM 2 (0_RX1_CRX2_CS1) to OpAmp U1: [287.02, 66.04, 90] -> [66.04, 52.07, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [287.02...
+    <pts [<xy [287.02, 66.04...
+[<xy [287.02, 66.04]>, <xy [66.04, 52.07]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = 6d3a2d06-9d0d-499...
+
+Successfully added wire
+Wiring PWM 3 (1_TX1_CTX2_MISO1) to OpAmp U1: [284.48, 66.04, 90] -> [124.46, 52.07, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [284.48...
+    <pts [<xy [284.48, 66.04...
+[<xy [284.48, 66.04]>, <xy [124.46, 52.07]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = 83a9eb64-e3e9-495...
+
+Successfully added wire
+Wiring PWM 4 (2_OUT2) to OpAmp U1: [281.94, 66.04, 90] -> [95.25, 52.07, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [281.94...
+    <pts [<xy [281.94, 66.04...
+[<xy [281.94, 66.04]>, <xy [95.25, 52.07]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = 626d6e42-5a2e-4fa...
+
+Successfully added wire
+Wiring PWM 5 (3_LRCLK2) to OpAmp U1: [279.4, 66.04, 90] -> [36.83, 52.07, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [279.4,...
+    <pts [<xy [279.4, 66.04]...
+[<xy [279.4, 66.04]>, <xy [36.83, 52.07]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = 6520ef75-5590-41f...
+
+Successfully added wire
+Wiring PWM 6 (4_BCLK2) to OpAmp U2: [276.86, 66.04, 90] -> [123.19, 87.63, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [276.86...
+    <pts [<xy [276.86, 66.04...
+[<xy [276.86, 66.04]>, <xy [123.19, 87.63]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = 8c2bb734-cdc8-495...
+
+Successfully added wire
+Wiring PWM 7 (5_IN2) to OpAmp U2: [274.32, 66.04, 90] -> [36.83, 87.63, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [274.32...
+    <pts [<xy [274.32, 66.04...
+[<xy [274.32, 66.04]>, <xy [36.83, 87.63]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = de7ec4b5-76bd-464...
+
+Successfully added wire
+Wiring PWM 8 (6_OUT1D) to OpAmp U2: [271.78, 66.04, 90] -> [66.04, 87.63, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [271.78...
+    <pts [<xy [271.78, 66.04...
+[<xy [271.78, 66.04]>, <xy [66.04, 87.63]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = 6d69b3e8-749e-43c...
+
+Successfully added wire
+Wiring PWM 9 (7_RX2_OUT1A) to OpAmp U2: [269.24, 66.04, 90] -> [95.25, 87.63, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [269.24...
+    <pts [<xy [269.24, 66.04...
+[<xy [269.24, 66.04]>, <xy [95.25, 87.63]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = 8664d75e-1bd0-423...
+
+Successfully added wire
+Wiring PWM 10 (8_TX2_IN1) to OpAmp U3: [266.7, 66.04, 90] -> [96.52, 124.46, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [266.7,...
+    <pts [<xy [266.7, 66.04]...
+[<xy [266.7, 66.04]>, <xy [96.52, 124.46]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = c4a02f8a-d6ab-43a...
+
+Successfully added wire
+Wiring PWM 11 (9_OUT1C) to OpAmp U3: [264.16, 66.04, 90] -> [36.83, 124.46, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [264.16...
+    <pts [<xy [264.16, 66.04...
+[<xy [264.16, 66.04]>, <xy [36.83, 124.46]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = e25bff31-b7d5-4ff...
+
+Successfully added wire
+Wiring PWM 12 (10_CS_MQSR) to OpAmp U3: [261.62, 66.04, 90] -> [66.04, 124.46, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [261.62...
+    <pts [<xy [261.62, 66.04...
+[<xy [261.62, 66.04]>, <xy [66.04, 124.46]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = 4e6eb5fb-d4df-4f5...
+
+Successfully added wire
+Wiring PWM 13 (11_MOSI_CTX1) to OpAmp U3: [259.08, 66.04, 90] -> [124.46, 124.46, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [259.08...
+    <pts [<xy [259.08, 66.04...
+[<xy [259.08, 66.04]>, <xy [124.46, 124.46]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = 2d427ca8-5792-4bb...
+
+Successfully added wire
+Wiring PWM 20 (28_RX7) to OpAmp U6: [241.3, 66.04, 90] -> [88.9, 195.58, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [241.3,...
+    <pts [<xy [241.3, 66.04]...
+[<xy [241.3, 66.04]>, <xy [88.9, 195.58]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = b9d1026b-5661-4ef...
+
+Successfully added wire
+Wiring PWM 21 (29_TX7) to OpAmp U6: [238.76, 66.04, 90] -> [63.5, 195.58, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [238.76...
+    <pts [<xy [238.76, 66.04...
+[<xy [238.76, 66.04]>, <xy [63.5, 195.58]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = 347de5e8-d730-4f7...
+
+Successfully added wire
+Wiring PWM 25 (33_MCLK2) to OpAmp U4: [231.14, 121.92, 270] -> [36.83, 158.75, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [231.14...
+    <pts [<xy [231.14, 121.9...
+[<xy [231.14, 121.92]>, <xy [36.83, 158.75]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = eaaeb9f6-da0b-4df...
+
+Successfully added wire
+Wiring PWM 28 (36_CS) to OpAmp U4: [238.76, 121.92, 270] -> [95.25, 158.75, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [238.76...
+    <pts [<xy [238.76, 121.9...
+[<xy [238.76, 121.92]>, <xy [95.25, 158.75]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = aa04d8b7-db17-48d...
+
+Successfully added wire
+Wiring PWM 29 (37_CS) to OpAmp U4: [241.3, 121.92, 270] -> [123.19, 158.75, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [241.3,...
+    <pts [<xy [241.3, 121.92...
+[<xy [241.3, 121.92]>, <xy [123.19, 158.75]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = 8a67357b-8a7c-433...
+
+Successfully added wire
+Wiring PWM 35 (13_SCK_LED) to OpAmp U4: [256.54, 121.92, 270] -> [66.04, 158.75, 270]
+New wire type: <class 'skip.eeschema.wire.WireWrapper'>
+New wire attributes: ['AttribInvalidCharsRe', 'PositionPrecision', 'StrStartsWithDigitRe', '__bool__', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__len__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_added_children_names', '_as_boolean', '_base_coords', '_crawlForElementsByType', '_deleteOnTree', '_deleted', '_entity_name', '_is_bool_symbol', '_is_yesno_bool', '_move_method', '_nameCounts', '_parent_obj', '_parent_top_obj', '_parseTree', '_setOnTree', '_sourceTree', '_translate_method', '_tree', '_value', 'children', 'clone', 'delete', 'entity_type', 'getElementsByEntityType', 'parent', 'parent_top', 'pts', 'raw', 'raw_parent', 'sourceTree', 'stroke', 'toSafeAttributeKey', 'toString', 'uuid', 'value']
+Wire added:   <wire [<pts [<xy [256.54...
+    <pts [<xy [256.54, 121.9...
+[<xy [256.54, 121.92]>, <xy [66.04, 158.75]>]
+      <stroke [width = 0, type...
+      width = 0
+
+          type = default
+
+      uuid = f2e03090-959c-4cb...
+
+Successfully added wire
+Created 18 controlled connections
+Attempting to save 18 new connections...
+Created backup at C:/Users/Guest2/Personal/Github/CNT/KICAD/teensy-LC-opamp-modified.kicad_sch.backup_20250401_221602
+Schematic saved successfully to C:/Users/Guest2/Personal/Github/CNT/KICAD/teensy-LC-opamp-modified.kicad_sch with 18 new connections.
+File size: 140037 bytes, Modified: 2025-04-01 22:16:02.425153
